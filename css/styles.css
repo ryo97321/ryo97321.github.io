@@ -12,3 +12,7 @@ h1 {
 
     height: 120px;
 }
+
+.under {
+    border-bottom: dashed 10px #F3F5F6;
+}
