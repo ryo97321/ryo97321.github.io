@@ -1,4 +1,13 @@
 h1 {
-    color: wheat;
+    font-family: 'Baloo Bhai', cursive;
+    position: absolute;
+    color: #1A0DAB;
     text-align: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+
+    height: 100px;
 }
