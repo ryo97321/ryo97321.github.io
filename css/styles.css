@@ -1,18 +1,41 @@
-h1 {
-    font-family: 'Baloo Bhai', cursive;
-    font-size: 5em;
-    position: absolute;
-    color: #1A0DAB;
-    text-align: center;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    margin: auto;
-
-    height: 175px;
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 5em;
+        position: absolute;
+        color: #FF0000;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        margin: auto;
+    
+        height: 175px;
+    }
+    
+    .under {
+        border-bottom: dashed 10px #F3F5F6;
+    }
 }
 
-.under {
-    border-bottom: dashed 10px #F3F5F6;
+@media screen and (min-width: 1025px) {
+    h1 {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 5em;
+        position: absolute;
+        color: #1A0DAB;
+        text-align: center;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        margin: auto;
+    
+        height: 175px;
+    }
+    
+    .under {
+        border-bottom: dashed 10px #F3F5F6;
+    }
 }
